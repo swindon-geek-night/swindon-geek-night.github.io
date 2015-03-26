@@ -1,0 +1,22 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: #fff;
+    padding: 20px;
+}
+
+.speakers {
+    margin-top: 20px;
+}
+
+.speakers a {
+    color: #fff;
+    border-bottom: 1px dotted #fff;
+}
+
+.speakers .col {
+    text-align: center;
+}
