@@ -15,9 +15,6 @@ header {
     padding-bottom: 0;
 }
 
-.speakers {
-}
-
 .speakers a {
     color: #fff;
     border-bottom: 1px dotted #fff;
@@ -30,4 +27,20 @@ header {
 
 .speakers .col {
     text-align: center;
+}
+
+
+
+@media (min-width: 601px) {
+    .speakers {
+        display: flex;
+        align-items: stretch;
+    }
+    .speakers .col {
+        display: flex;
+        align-items: stretch;
+    }
+    .speakers .card-panel {
+        flex: 1;
+    }
 }
